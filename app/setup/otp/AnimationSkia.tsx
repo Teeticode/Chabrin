@@ -1,4 +1,4 @@
-impor { FlatList, StyleSheet, Text, View } from "react-native";
+import { FlatList, StyleSheet, Text, View } from "react-native";
 import React, { useCallback, useEffect, useState } from "react";
 import Box from "@/components/Globals/Box";
 import MainText from "@/components/Globals/MainText";

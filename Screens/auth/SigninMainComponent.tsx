@@ -130,7 +130,7 @@ const SigninMainComponent = (props: Props) => {
             />
           </Animated.View>
           {next ? (
-            <Box>
+            <Box mt={-verticalScale(30)}>
               <MainButton
                 mb={moderateScale(10)}
                 height={moderateScale(30)}
@@ -267,7 +267,7 @@ const SigninMainComponent = (props: Props) => {
                           pa={moderateScale(5)}
                         >
                           <MainIcon
-                            size={moderateScale(23)}
+                            size={moderateScale(20)}
                             color={"#252B5C"}
                             source="Feather"
                             name="eye"
@@ -282,7 +282,7 @@ const SigninMainComponent = (props: Props) => {
                           pa={moderateScale(5)}
                         >
                           <MainIcon
-                            size={moderateScale(23)}
+                            size={moderateScale(20)}
                             color={"#252B5C"}
                             source="Feather"
                             name="eye-off"

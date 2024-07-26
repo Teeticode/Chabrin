@@ -149,7 +149,7 @@ const EstateInput = forwardRef<TextInput, MainTextInputProps>(
       <>
         <LinearGradient
           style={{
-            height: verticalScale(69),
+            height: verticalScale(53),
             width: "100%",
             borderRadius: moderateScale(13),
             alignItems: "center",
@@ -175,7 +175,7 @@ const EstateInput = forwardRef<TextInput, MainTextInputProps>(
             <Box
               justify="center"
               radius={10}
-              height={verticalScale(65)}
+              height={verticalScale(50)}
               borderWidth={1}
               borderColor={Colors.theme.light}
               color={"#F5F4F8"}
@@ -229,8 +229,8 @@ const EstateInput = forwardRef<TextInput, MainTextInputProps>(
                   }}
                   placeholderTextColor={"#A1A5C1"}
                   {...input}
-                  // onFocus={() => setInputFocused(true)}
-                  // onBlur={() => setInputFocused(false)}
+                // onFocus={() => setInputFocused(true)}
+                // onBlur={() => setInputFocused(false)}
                 />
                 {rightSlot && (
                   <Box
